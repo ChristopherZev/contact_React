@@ -2,7 +2,6 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
-
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -24,6 +23,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^1.1.0",
     "abbrev": "^1.1.1",
     "acorn": "^5.6.0",
     "acorn-dynamic-import": "^3.0.0",
@@ -585,6 +586,7 @@
     "tslib": "^1.9.2",
     "tty-browserify": "^0.0.0",
     "typedarray": "^0.0.6",
+    "typeface-roboto": "0.0.54",
     "uglify-es": "^3.3.9",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "underscore": "^1.6.0",
