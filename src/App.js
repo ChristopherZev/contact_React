@@ -4,13 +4,13 @@ import Button from '@material-ui/core/Button';
 const App = () => {
   return (
     <div>
-      <p>React here!</p>
+      <p>React here! Hey</p>
 
       <Button variant="raised" color="primary">
-        Hello World
+        Hello World, this is mui
       </Button>
 
-      //test a comment
+
     </div>
 
   );
