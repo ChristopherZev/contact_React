@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 const App = () => {
   return (
     <div>
-      <p>React here! Hey</p>
+      <p>React</p>
 
       <Button variant="raised" color="primary">
         Hello World, this is mui

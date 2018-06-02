@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "npm run build && cd dist && surge --domain kennethcontact.surge.sh && enter"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
